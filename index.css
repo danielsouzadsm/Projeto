@@ -96,7 +96,7 @@
     flex-direction: column;
     gap: 16px;
     padding: 24px 0;
-    transition: background 0.2s;
+    transition: background 0.3s;
   }
   
   ul li a {
