@@ -6,7 +6,7 @@
   
   body {
     background: var(--bg-url) no-repeat top center/cover;
-
+    height: 120vh;
   }
   body * {
     font-family: "Inter", sans-serif;
@@ -36,10 +36,11 @@
     width: 100%;
     margin: 56px auto 0px;
     padding: 0 24px;
+
   }
   #perfil {
     text-align: center;
-    padding: 24px;
+    padding: 34px;
   }
   #perfil img {
     width: 112px;
@@ -94,7 +95,7 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 19px;
     padding: 24px 0;
     transition: background 0.3s;
   }
