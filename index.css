@@ -4,6 +4,14 @@
     box-sizing: border-box;
   }
   
+  body {
+    background: var(--bg-url) no-repeat top center/cover;
+
+  }
+  body * {
+    font-family: "Inter", sans-serif;
+    color: var(--text-color);
+  }
   :root {
     --text-color: white;
     --bg-url: url(./assets/bg-mobile.jpg);
@@ -23,14 +31,6 @@
     --switch-bg-url: url(./assets/sun.svg);
   }
   
-  body {
-    background: var(--bg-url) no-repeat top center/cover;
-
-  }
-  body * {
-    font-family: "Inter", sans-serif;
-    color: var(--text-color);
-  }
   #container {
     max-width: 588px;
     width: 100%;
