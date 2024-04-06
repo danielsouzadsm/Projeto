@@ -3,10 +3,9 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
   body {
     background: var(--bg-url) no-repeat top center/cover;
-    height: 119vh;
+    height: 100vh;
   }
   body * {
     font-family: "Inter", sans-serif;
@@ -30,13 +29,11 @@
     --highlight-color: rgba(0, 0, 0, 0.1);
     --switch-bg-url: url(./assets/sun.svg);
   }
-  
   #container {
     max-width: 588px;
     width: 100%;
     margin: 56px auto 0px;
     padding: 0 24px;
-
   }
   #perfil {
     text-align: center;
@@ -53,17 +50,14 @@
   #switch {
     position: relative;
     width: 64px;
-  
-    margin: 4px auto;
+    margin: 9px auto;
   }
-  
   #switch button {
     width: 32px;
     height: 32px;
     background: white var(--switch-bg-url) no-repeat center;
     border: 0;
     border-radius: 50%;
-  
     position: absolute;
     top: 50%;
     left: 0;
@@ -71,7 +65,6 @@
     transform: translateY(-50%);
     animation: slide-back 0.2s;
   }
-  
   #switch span {
     display: block;
     width: 64px;
@@ -79,54 +72,42 @@
     background: var(--surface-color);
     border: 1px solid var(--stroke-color);
     border-radius: 9999px;
-  
-    
   }
-  
   .light #switch button {
     animation: slide-in 0.2s forwards;
   }
   #switch button:hover{
     outline: 8px solid var(--highlight-color)
   }
-  
-  /*links*/
   ul {
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 19px;
+    gap: 29px;
     padding: 24px 0;
     transition: background 0.3s;
   }
-  
   ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-  
     padding: 16px 24px;
     background: var(--surface-color);
-  
     border: 1px solid var(--stroke-color);
     border-radius: 8px;
     text-decoration: none;
     font-weight: 500;
   }
-  /* pseudo selector */
   ul li a:hover {
     background: var(--surface-color-hover);
     border: 1.5px solid var(--text-color);
   }
-  
-  /* links sociais */
   #social-links {
     display: flex;
     justify-content: center;
     padding: 24px 0;
     font-size: 35px;
   }
-  
   #social-links a {
     display: flex;
     justify-content: center;
@@ -138,9 +119,8 @@
   #social-links a:hover {
     background: var(--highlight-color);
   }
-  
   footer {
-    padding: 24px 0;
+    padding: 29px 0;
     text-align: center;
     font-size: 16px;
   }
@@ -148,7 +128,6 @@
     text-decoration: none;
     font-weight: 500;
   }
-  /* att rule */
   @keyframes slide-in{
     from{
       left: 0;
