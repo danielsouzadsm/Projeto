@@ -7,10 +7,10 @@ function toggleMode(){
     
     if(html.classList.contains('light')){
         img.setAttribute('src', './assets/avatar-light.png')
-        img.setAttribute('alt','segurando o celular com as mãos no espelho sobre o rosto oculos grau e camisa branca de time do vasco' )
+        img.setAttribute('alt','menino no pc sem oculos' )
     }
     else{
         img.setAttribute('src', './assets/avatar.png')
-        img.setAttribute('alt','segurando o celular com as mãos no espelho sobre o rosto oculos grau e camisa preta')
+        img.setAttribute('alt','homem sentado na mesa segurando o seu notebook')
     }
 }
